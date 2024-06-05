@@ -17,12 +17,12 @@ public class Player : MonoBehaviour
     {
         if (_characterController != null)
         {
-            Vector3 playerSpeed = _input.Move;
-            playerSpeed *= Time.deltaTime * _speed;
+            Vector3 direction = _input.Mover;
+            direction *= Time.deltaTime * _speed;
 
             if (_characterController.isGrounded)
             {
-                _characterController.Move(playerSpeed + Physics.gravity);
+                _characterController.Move(direction + Physics.gravity);
             }
             else
             {

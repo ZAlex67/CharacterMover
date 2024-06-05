@@ -3,11 +3,11 @@
   "WorkspaceRootPath": "D:\\MyUnityProject\\CharacterMover\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{F7B3A5B2-EB3E-1438-3D6E-746A3FAC2302}|Assembly-CSharp.csproj|D:\\MyUnityProject\\CharacterMover\\assets\\script\\playerinput.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{F7B3A5B2-EB3E-1438-3D6E-746A3FAC2302}|Assembly-CSharp.csproj|d:\\myunityproject\\charactermover\\assets\\script\\playerinput.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F7B3A5B2-EB3E-1438-3D6E-746A3FAC2302}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\playerinput.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F7B3A5B2-EB3E-1438-3D6E-746A3FAC2302}|Assembly-CSharp.csproj|d:\\myunityproject\\charactermover\\assets\\script\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{F7B3A5B2-EB3E-1438-3D6E-746A3FAC2302}|Assembly-CSharp.csproj|D:\\MyUnityProject\\CharacterMover\\assets\\script\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F7B3A5B2-EB3E-1438-3D6E-746A3FAC2302}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -32,7 +32,7 @@
               "RelativeDocumentMoniker": "Assets\\Script\\PlayerInput.cs",
               "ToolTip": "D:\\MyUnityProject\\CharacterMover\\Assets\\Script\\PlayerInput.cs",
               "RelativeToolTip": "Assets\\Script\\PlayerInput.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAYAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-06-03T11:17:02.251Z",
               "EditorCaption": ""
@@ -45,7 +45,7 @@
               "RelativeDocumentMoniker": "Assets\\Script\\Player.cs",
               "ToolTip": "D:\\MyUnityProject\\CharacterMover\\Assets\\Script\\Player.cs",
               "RelativeToolTip": "Assets\\Script\\Player.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAZAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAtAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-31T04:12:21.599Z",
               "EditorCaption": ""
@@ -58,7 +58,7 @@
               "RelativeDocumentMoniker": "Assets\\Script\\BotMover.cs",
               "ToolTip": "D:\\MyUnityProject\\CharacterMover\\Assets\\Script\\BotMover.cs",
               "RelativeToolTip": "Assets\\Script\\BotMover.cs",
-              "ViewState": "AQIAAC4AAAAAAAAAAAAkwA8AAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-06-02T15:56:06.334Z",
               "EditorCaption": ""

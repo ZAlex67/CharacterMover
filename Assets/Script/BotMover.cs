@@ -6,13 +6,12 @@ public class BotMover : MonoBehaviour
     [SerializeField] private Player _player;
     [SerializeField] private float _moveSpeed = 3f;
     [SerializeField] private float _stopDistance = 2f;
-    [SerializeField] private float _botHeight;
     [SerializeField] private LayerMask _groundMask;
-    [SerializeField] private float _maxForce;
-    [SerializeField] private float _groundDrag;
+    [SerializeField] private float groundCheckDistance = 1f;
+    [SerializeField] private float groundCheckRadius = 0.8f;
 
     private Rigidbody _rigidbody;
-    private bool _isGround;
+    private bool _isGrounded;
 
     private void Start()
     {
@@ -31,42 +30,28 @@ public class BotMover : MonoBehaviour
 
     private void Move()
     {
-        float distanceToTarget = Vector3.Distance(transform.position, _player.transform.position);
-
-        if (distanceToTarget <= _stopDistance)
+        if (_isGrounded)
         {
-            _rigidbody.velocity = Vector3.zero;
-            return;
+            Vector3 direction = _player.transform.position - transform.position;
+            direction.y = 0;
+
+            if (direction.magnitude > _stopDistance)
+            {
+                Vector3 move = direction.normalized * _moveSpeed * Time.fixedDeltaTime;
+                _rigidbody.MovePosition(_rigidbody.position + move);
+            }
         }
-
-        Vector3 currentVelocity = _rigidbody.velocity;
-        Vector3 targetVelocity = (_player.transform.position - transform.position).normalized;
-        targetVelocity *= _moveSpeed;
-
-        targetVelocity = transform.TransformDirection(targetVelocity);
-
-        Vector3 velocityChange = targetVelocity - currentVelocity;
-        velocityChange = new Vector3(velocityChange.x, 0, velocityChange.z);
-
-        Vector3.ClampMagnitude(velocityChange, _maxForce);
-
-        _rigidbody.AddForce(velocityChange, ForceMode.Impulse);
     }
 
     private void SearchGroundUnderFeet()
     {
-        float feetLength = 0.5f;
-        float ground = 0.2f;
-
-        _isGround = Physics.Raycast(transform.position, Vector3.down, _botHeight * feetLength + ground, _groundMask);
-
-        if (_isGround)
+        if (Physics.SphereCast(transform.position, groundCheckRadius, Vector3.down, out RaycastHit hit, groundCheckDistance, _groundMask))
         {
-            _rigidbody.drag = _groundDrag;
+            _isGrounded = true;
         }
         else
         {
-            _rigidbody.drag = 0;
+            _isGrounded = false;
         }
     }
 }
