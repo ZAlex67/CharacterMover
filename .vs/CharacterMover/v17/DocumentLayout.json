@@ -3,16 +3,16 @@
   "WorkspaceRootPath": "D:\\MyUnityProject\\CharacterMover\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{F7B3A5B2-EB3E-1438-3D6E-746A3FAC2302}|Assembly-CSharp.csproj|D:\\MyUnityProject\\CharacterMover\\assets\\script\\botmover.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F7B3A5B2-EB3E-1438-3D6E-746A3FAC2302}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\botmover.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F7B3A5B2-EB3E-1438-3D6E-746A3FAC2302}|Assembly-CSharp.csproj|d:\\myunityproject\\charactermover\\assets\\script\\playerinput.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{F7B3A5B2-EB3E-1438-3D6E-746A3FAC2302}|Assembly-CSharp.csproj|D:\\MyUnityProject\\CharacterMover\\assets\\script\\playerinput.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F7B3A5B2-EB3E-1438-3D6E-746A3FAC2302}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\playerinput.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{F7B3A5B2-EB3E-1438-3D6E-746A3FAC2302}|Assembly-CSharp.csproj|d:\\myunityproject\\charactermover\\assets\\script\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F7B3A5B2-EB3E-1438-3D6E-746A3FAC2302}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F7B3A5B2-EB3E-1438-3D6E-746A3FAC2302}|Assembly-CSharp.csproj|D:\\MyUnityProject\\CharacterMover\\assets\\script\\botmover.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F7B3A5B2-EB3E-1438-3D6E-746A3FAC2302}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\botmover.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,11 +22,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "PlayerInput.cs",
               "DocumentMoniker": "D:\\MyUnityProject\\CharacterMover\\Assets\\Script\\PlayerInput.cs",
               "RelativeDocumentMoniker": "Assets\\Script\\PlayerInput.cs",
@@ -39,26 +39,26 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "Player.cs",
               "DocumentMoniker": "D:\\MyUnityProject\\CharacterMover\\Assets\\Script\\Player.cs",
               "RelativeDocumentMoniker": "Assets\\Script\\Player.cs",
               "ToolTip": "D:\\MyUnityProject\\CharacterMover\\Assets\\Script\\Player.cs",
               "RelativeToolTip": "Assets\\Script\\Player.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAJAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAZAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-31T04:12:21.599Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "BotMover.cs",
               "DocumentMoniker": "D:\\MyUnityProject\\CharacterMover\\Assets\\Script\\BotMover.cs",
               "RelativeDocumentMoniker": "Assets\\Script\\BotMover.cs",
               "ToolTip": "D:\\MyUnityProject\\CharacterMover\\Assets\\Script\\BotMover.cs",
               "RelativeToolTip": "Assets\\Script\\BotMover.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAADIAAAAJAAAA",
+              "ViewState": "AQIAAC4AAAAAAAAAAAAkwA8AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-06-02T15:56:06.334Z",
               "EditorCaption": ""
